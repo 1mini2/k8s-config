@@ -18,7 +18,7 @@ spec:
       labels:
         app: eks-example
     spec:
-      containers:kubectl get pods -n flux
+      containers:
       - name: eks-example
         image: 559945207875.dkr.ecr.us-east-1.amazonaws.com/eks-example:d06e448f
         imagePullPolicy: IfNotPresent
